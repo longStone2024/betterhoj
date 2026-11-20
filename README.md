@@ -14,8 +14,6 @@ Better HOJ 27 采用 **CC BY-NC-SA** 作为协议。
 
 # 介绍
 
-## 在线下载最新的 Better HOJ 27：[betterhoj.zip](/api/public/file/9000681f98d8491dba5aa038130f2f96.zip) [link2](https://pan.rkcd.me/s/rh96u9vs)
-
 ## 什么是 Better HOJ？
 
 这是一个使用 Userscripts 为 HOJ 添加丰富功能，以提升 HOJ 用户体验的项目。
