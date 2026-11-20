@@ -1,0 +1,31 @@
+{
+  "type": "hoj-settings",
+  "version": "27.2.1",
+  "config": {
+    "DarkMode": true,
+    "CardBackground": "#37373FB0",
+    "CardBlurRadius": "20px",
+    "CardRadius": "15px",
+    "ListBackground": "transparent",
+    "ListBackgroundGreen": "#E6FFDF60",
+    "ListBackgroundHover": "#37373F60",
+    "CodeBlockBackground": "#37373FB0",
+    "CodeBlockRadius": "10px",
+    "InputAreaBackground": "#37373FB0",
+    "InputAreaRadius": "10px",
+    "ButtonBackground": "#37373FB0",
+    "ButtonBackgroundHover": "#37373FD0",
+    "ButtonBackgroundActive": "#409EFF",
+    "ButtonRadius": "6px",
+    "TagRadius": "6px",
+    "TooltipBackground": "#37373FB0",
+    "TooltipRadius": "10px",
+    "JudgeDetailBlockRadius": "10px",
+    "TextDark": "#FFFFFF",
+    "TextDarkDisabled": "#FFFFFFB0",
+    "TextLight": "#24292E",
+    "TextBlue": "#409EFF",
+    "TextLink": "#409EFF",
+    "SelectText": "#3498DB60"
+  }
+}

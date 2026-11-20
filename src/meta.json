@@ -1,0 +1,48 @@
+{
+  "name": "Better HOJ",
+  "namespace": "http://tampermonkey.net/",
+  "icon": "https://docs.hdoi.cn/logo.png",
+  "version": "27.4.0",
+  "description": "优化了 HOJ。",
+  "author": "longStone",
+  "license": "CC BY-NC-SA",
+  "match": [
+    "*://ssf.hdoi.cn/*",
+    "*://deeplearning.org.cn/*",
+    "*://oi.cnuschool.org.cn/*",
+    "*://172.16.21.199/*",
+    "*://vpn.cnuschool.org.cn/http/77726476706e69737468656265737421a1a013d2766626022f46d8f5c1/*"
+  ],
+  "grant": [
+    "GM_addStyle",
+    "GM_xmlhttpRequest",
+    "GM_setClipboard",
+    "GM_setValue",
+    "GM_getValue",
+    "unsafeWindow",
+    "GM_registerMenuCommand",
+    "GM_unregisterMenuCommand",
+    "GM_getResourceText",
+    "GM_getResourceURL"
+  ],
+  "run-at": "document-body",
+  "require": [
+    "https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/highlight.js/11.9.0/highlight.min.js"
+  ],
+  "resource": {
+    "hoj-font-forgetica": "https://db.onlinewebfonts.com/c/eb08ac6d35598e6ced424eb52373a55a?family=Sans+Forgetica+Regular",
+    "hoj-font-google": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=JetBrains+Mono&family=Fira+Code:wght@300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+  },
+  "connect": [
+    "mirrors.sustech.edu.cn",
+    "localhost",
+    "127.0.0.1",
+    "hojcode.rkcd.me",
+    "hojtag.rkcd.me",
+    "ssf.hdoi.cn",
+    "172.16.21.199",
+    "smart-hoj.is-great.org",
+    "fonts.googleapis.com",
+    "db.onlinewebfonts.com"
+  ]
+}

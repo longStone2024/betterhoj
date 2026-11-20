@@ -1,0 +1,17 @@
+{
+  "name": "betterhoj",
+  "version": "27.4.0",
+  "description": "Better HOJ - Modular userscript for HOJ optimization",
+  "type": "module",
+  "sideEffects": [
+    "./src/features/settingsButton.ts"
+  ],
+  "scripts": {
+    "dev": "esbuild src/entry.ts --bundle --outfile=dist/betterhoj.user.js --format=iife --target=es2020 --watch --define:process.env.NODE_ENV='\"development\"'",
+    "build": "node build.cjs",
+    "build:prod": "node build.cjs --prod"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.19"
+  }
+}

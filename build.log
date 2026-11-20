@@ -1,0 +1,31 @@
+▲ [WARNING] Duplicate key "group.code" in object literal [duplicate-object-key]
+
+    src/core/i18n.ts:392:4:
+      392 │     'group.code': '邀请码',
+          ╵     ~~~~~~~~~~~~
+
+  The original key "group.code" is here:
+
+    src/core/i18n.ts:288:4:
+      288 │     'group.code': '代码块',
+          ╵     ~~~~~~~~~~~~
+
+▲ [WARNING] Duplicate key "group.code" in object literal [duplicate-object-key]
+
+    src/core/i18n.ts:822:4:
+      822 │     'group.code': 'Invite code',
+          ╵     ~~~~~~~~~~~~
+
+  The original key "group.code" is here:
+
+    src/core/i18n.ts:726:4:
+      726 │     'group.code': 'Code Block',
+          ╵     ~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "../storage.js"
+
+    src/core/config.ts:6:41:
+      6 │ import { GM_getValue, GM_setValue } from '../storage.js';
+        ╵                                          ~~~~~~~~~~~~~~~
+
+2 warnings and 1 error
